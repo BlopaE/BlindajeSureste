@@ -5,6 +5,7 @@ Este proyecto está protegido por un contrato de confidencialidad. Por ese motiv
 
 ## Resumen
 Proyecto para la programación, ejecución y evaluación de supervisiones de funciones críticas en la División de Distribución Sureste de la CFE. Consta de tres componentes principales: aplicación web, aplicación móvil y una API que conecta ambos con la base de datos. El objetivo principal fue reemplazar procesos manuales (Excel) por un flujo con trazabilidad, evidencias y reportes que facilite la toma de decisiones. 
+![Pantalla principal](inicio.png)
 
 ## Impacto y resultados
 - Implementación efectiva: en 5 semanas se realizaron más de 500 supervisiones, lo que demuestra aceptación y efectividad del sistema. 
@@ -24,18 +25,34 @@ Proyecto para la programación, ejecución y evaluación de supervisiones de fun
 - Autenticación (integración con Directorio Activo + BD).
 ![Login](login.png)
 
-- Programación de supervisiones semanales (configurable por zona/proceso/función). 
-- Evaluación de supervisiones (visualización de evidencias, fortalezas y debilidades). 
-- Gestión de funciones críticas e indicadores. 
-- Visualización de reportes incrustados (SSRS). 
+- Programación de supervisiones semanales (configurable por zona/proceso/función).
+  
+- Evaluación de supervisiones (visualización de evidencias, fortalezas y debilidades).
+![Datos generales de la evaluación](evaluacion1.png)
+![Funciones registradas](evaluacion2.png)
+  
+- Gestión de funciones críticas e indicadores.
+![Funciones registradas](funciones.png)
+![Formulario de registro](funciones2.png)
+
+- Visualización de cumplimiento semanal de programación, ejecución y evaluación de supervisiones.
+![Cumplimiento](cumplimiento.png)
+  
+- Visualización de reportes incrustados (SSRS).
+![Reportes](reportes.png)
+  
 - Gestión de usuarios y roles (control de acceso por permisos). 
 
 ## Aplicación Móvil (Android / Java)
 Objetivo: permitir a supervisores ejecutar supervisiones en campo, capturar evidencias y sincronizar resultados. 
 
 ### Características clave
-- Autenticación con Directorio Activo (requiere conexión a la intranet o VPN). 
-- Modo offline: guardar borradores locales y sincronizar cuando haya conexión. 
+- Autenticación con Directorio Activo (requiere conexión a la intranet o VPN).
+![Loging app](loginApp.png)
+
+- Modo offline: guardar borradores locales y sincronizar cuando haya conexión.
+![Resumen del envio](envioApp.png)
+
 - Captura de evidencias fotográficas (con geolocalización y timestamp) y compresión previa al envío. 
 - Creación de supervisiones emergentes desde la app (cuando sea necesario). 
 
@@ -59,4 +76,4 @@ Objetivo: exponer endpoints REST para comunicación entre app móvil y la base d
 ## Metodología y control de calidad
 - Desarrollo bajo prácticas de XP (iteraciones, historias de usuario, pruebas de aceptación). 
 - Integración continua y control de versiones con Azure DevOps / Git. 
-- Pruebas de aceptación documentadas (ej. apertura de reportes validada el 14 de junio de 2025). 
+- Pruebas de aceptación documentadas.
