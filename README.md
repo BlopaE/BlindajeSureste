@@ -18,7 +18,6 @@ Proyecto para la programación, ejecución y evaluación de supervisiones de fun
 - Base de datos relacional (SQL Server 2019) y reporting con SSRS. 
 
 ## Diagrama:
-![Diagrama de arquitectura — colocar aquí](./assets/diagrama_arquitectura.png)
 
 ## Aplicación Web (ASP.NET 4.5)
 - Objetivo: administración, programación y evaluación de supervisiones. 
