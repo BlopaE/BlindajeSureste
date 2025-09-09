@@ -17,13 +17,13 @@ Proyecto para la programación, ejecución y evaluación de supervisiones de fun
 - API REST (ADO.NET) — operaciones CRUD y puente seguro entre clientes y base de datos. 
 - Base de datos relacional (SQL Server 2019) y reporting con SSRS. 
 
-## Diagrama:
-
 ## Aplicación Web (ASP.NET 4.5)
 - Objetivo: administración, programación y evaluación de supervisiones. 
 
 ### Módulos principales
-- Autenticación (integración con Directorio Activo + BD). 
+- Autenticación (integración con Directorio Activo + BD).
+![Login](login.png)
+
 - Programación de supervisiones semanales (configurable por zona/proceso/función). 
 - Evaluación de supervisiones (visualización de evidencias, fortalezas y debilidades). 
 - Gestión de funciones críticas e indicadores. 
